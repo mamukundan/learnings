@@ -1,0 +1,7 @@
+Heroku Commands
+  heroku create -> Create an app in Heroku. This creates a git repo in the Heroku cloud and adds it as a remote repo in local
+  git push remote master -> pushes the code in current repo to Heroku
+  heroku ps:scale web=1 -> runs the app on a single process
+  heroku open -> opens the home url of the app in the browser
+  heroku logs --tail -> displays the last few lines of the logs of the app running in Heroku
+  
